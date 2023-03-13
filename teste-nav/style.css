@@ -37,7 +37,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
-    color: #00C9C8;
+    color: #CF1C3B;
     white-space: nowrap;
     position: relative;
 }
@@ -46,7 +46,7 @@ nav a::after {
     content: " ";
     width: 0%;
     height: 2px;
-    background-color: #00C9C8;
+    background-color: #798897;
     position: absolute;
     bottom: 0;
     left: 0;
