@@ -40,7 +40,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
-    color: #CF1C3B;
+    color: #FFF500;
     white-space: nowrap;
     position: relative;
 }
@@ -81,7 +81,7 @@ nav a:hover::after {
     height: 350px;
     border-radius: 50%;
     margin-bottom: 0;
-    box-shadow: 0px 0px 144px -8px rgba(228,60,60,0.27);
+    box-shadow: 0px 0px 144px -8px rgba(235, 231, 44, 0.27);
 }
 
 .info-prof-config {
@@ -97,7 +97,7 @@ nav a:hover::after {
 .nome-profissional {
     font-weight: 1000;
     font-size: 20px;
-    color: #CF1C3B;
+    color: #FFF500;
 }
 
 .titulo {
@@ -116,7 +116,7 @@ nav a:hover::after {
     transition: 0.5s;
     position: relative;
     font-size: 17px;
-    background: #CF1C3B;
+    background: #FFF500;
     border: none;
     color: white;
     margin-top: 10px;
@@ -125,8 +125,8 @@ nav a:hover::after {
 .about-me:hover {
     letter-spacing: 0.25em;
     background: #798897;
-    color: #CF1C3B;
-    box-shadow: 0 0 45px #CF1C3B;
+    color: #FFF500;
+    box-shadow: 0 0 45px #FFF500;
     cursor: pointer;
 }
 
@@ -151,7 +151,7 @@ nav a:hover::after {
 .about-me i::before {
     content: ' ';
     position: absolute;
-    border: 2px solid #CF1C3B;
+    border: 2px solid #FFF500;
     width: 7px;
     height: 4px;
     top: -3.5px;
@@ -169,7 +169,7 @@ nav a:hover::after {
 .about-me i::after {
     content: ' ';
     position: absolute;
-    border: 2px solid #CF1C3B;
+    border: 2px solid #FFF500;
     width: 7px;
     height: 4px;
     bottom: -3.5px;
@@ -189,7 +189,7 @@ nav a:hover::after {
 /*INICIO SECTION 2*/
 
 .segunda-sec {
-    background-color: #798897;
+    background-color: black;
     padding-bottom: 50px;
     margin-top: 6rem;
 }
@@ -216,10 +216,10 @@ nav a:hover::after {
     justify-content: center;
     padding-left: 15%;
     padding-right: 3px;
-    color: white;
+    color: #FFF500;
     font-family: sans-serif;
     font-weight: 700;
-    gap: 15px;
+    gap: 20px;
     padding-left: 20px;
 }
 
@@ -229,7 +229,7 @@ nav a:hover::after {
 
 .tec a {
     text-decoration: none;
-    color: #CF1C3B;
+    color: #FFF500;
     margin-top: 15px;
     margin-right: 50px;
     font-weight: 1000;
@@ -244,11 +244,15 @@ nav a:hover::after {
 }
 
 .tecnologia1 {
-    background-color: #222222;  
+    background-color: #4A4737;  
 }
 
 .tecnologia2 {
-    background-color: #CF1C3B;
+    background-color: #FFF500;
+}
+
+.tecnologia3 {
+    background-color: #4A4737;
 }
 
 .tec.tecnologia2 p {
@@ -275,6 +279,57 @@ nav a:hover::after {
     color: white;
     margin-top: 15px;
     font-weight: 1000;
+}
+
+.titulo-formacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #FFF500;
+}
+
+.formacao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.formacao h1 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.formacao h2 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.formacao details {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.formacao-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+    background-color: #FFF500;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 5%;
+    min-height: 150px;
+}
+
+.logo-formacao {
+    width: 150px;
+    height: 50px;
 }
 
 /*FIM SECTION 2*/

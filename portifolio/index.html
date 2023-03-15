@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu NAV</title>
+    <title>Portifólio - Nome</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="imagem/png" href="computadorred.png">
+    <link rel="icon" type="imagem/png" href="icone-yellow.png">
 </head>
 <body>
 <header>
     <nav class="navegacao">
         <ul>
-            <img class="foto" src="computadorred.png" alt="Logo">
+            <img class="foto" src="icone-yellow.png" alt="Logo">
             <li><a class="nome" href="#">Nome</a></li>
-            <li><a href="http://">Home</a></li>
-            <li><a href="http://">About</a></li>
-            <li><a href="http://">Projects</a></li>
-            <li><a href="http://">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="http://">Projetos</a></li>
+            <li><a href="http://">Contato</a></li>
         </ul>
     </nav>
 </header>
 
-<section class="info-profissional">
+<section class="info-profissional" id="home">
     <img src="profissional.jpg" alt="Foto do profissional" class="img-profissional" data-aos="fade-right">
     <div class="info-prof-config">
         <h4 class="nome-profissional">Olá, nome do profissional!</h4>
@@ -38,7 +38,7 @@
     </div>
 </section>
 
-<section class="segunda-sec">
+<section class="segunda-sec" id="sobre">
     <div class="div1">
         <div class="div2">
             <div class="tecnologia1 tec">
@@ -53,11 +53,42 @@
                 <p>Veja aqui meu projeto usando css3.</p>
                 <a href="">Ver projeto</a>
             </div>
-            <div class="tecnologia1 tec">
+            <div class="tecnologia3 tec">
                 <img src="img-javascript.svg" alt="icone javascript">
                 <h1>JAVASCRIPT</h1>
                 <p>Veja aqui meu projeto usando Javascript</p>
                 <a href="">Ver projeto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="titulo-formacao">
+        <h1>Cursos e Formação:</h1>
+    </div>
+    <div class="formacao">
+        <div class="formacao-item">
+            <div>
+                <img src="logoestacio.png" alt="Logo da estacio" class="logo-formacao">
+                <h1>Curso Análise e desenvolvimento de sistemas</h1>
+                <h2>Instituição Estácio (em formação)</h2>
+                <details>
+                    <summary>Grade Curricular</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <div class="formacao">
+        <div class="formacao-item">
+            <div>
+                <img src="logoudemy.png" alt="Logo da estacio" class="logo-formacao">
+                <h1>Curso Front End Udemy</h1>
+                <h2>Instituição Udemy(em formação)</h2>
+                <details>
+                    <summary>Grade Curricular</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </details>
             </div>
         </div>
     </div>
