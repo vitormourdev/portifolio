@@ -299,18 +299,21 @@ nav a:hover::after {
     color: black;
     font-family: sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
 .formacao h2 {
     color: black;
     font-family: sans-serif;
     font-size: 15px;
+    text-align: center;
 }
 
 .formacao details {
     color: black;
     font-family: sans-serif;
     font-size: 13px;
+    text-align: center;
 }
 
 .formacao-item {
