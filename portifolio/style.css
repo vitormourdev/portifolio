@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.foto {
+    width: 50px;
+    height: 50px;
+}
+
+/*INICIO NAVBAR*/
+
+.navegacao {
+    background: black;
+}
+
+.navegacao ul {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 20px;
+    list-style: none;
+    font-weight: 1000;
+}
+
+.nome {
+    margin-right: 230px;
+}
+
+.navegacao a {
+    font-family: sans-serif;
+    font-weight: 1000px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #FFF500;
+    white-space: nowrap;
+    position: relative;
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #798897;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/*INICIO NAVBAR*/
+
+/*INICIO SECTION PRINCIPAL*/
+
+.info-profissional {
+    display: flex;
+    margin-left: 23%;
+    margin-right: 23%;
+    align-items: flex-end;
+    font-family: sans-serif;
+    color: white;
+    gap: 30px;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.img-profissional {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 144px -8px rgba(235, 231, 44, 0.27);
+}
+
+.info-prof-config {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    width: 50%;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+.nome-profissional {
+    font-weight: 1000;
+    font-size: 20px;
+    color: #FFF500;
+}
+
+.titulo {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.sobre-profissional {
+    font-weight: 100;
+}
+
+.about-me {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 17px;
+    background: #FFF500;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.about-me:hover {
+    letter-spacing: 0.25em;
+    background: #798897;
+    color: #FFF500;
+    box-shadow: 0 0 45px #FFF500;
+    cursor: pointer;
+}
+
+.about-me::before {
+    content: ' ';
+    position: absolute;
+    inset: 2px;
+    background: black;
+}
+
+.about-me span {
+    position: relative;
+    z-index: 1;
+}
+
+.about-me i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.about-me i::before {
+    content: ' ';
+    position: absolute;
+    border: 2px solid #FFF500;
+    width: 7px;
+    height: 4px;
+    top: -3.5px;
+    left: 80%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.about-me:hover i::before {
+    width: 20px;
+    left: 20%;
+}
+
+.about-me i::after {
+    content: ' ';
+    position: absolute;
+    border: 2px solid #FFF500;
+    width: 7px;
+    height: 4px;
+    bottom: -3.5px;
+    left: 20%;
+    background: #222222;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.about-me:hover i::after {
+    width: 20px;
+    left: 80%;
+}
+
+/*FIM SECTION PRINCIPAL*/
+
+/*INICIO SECTION 2*/
+
+.segunda-sec {
+    background-color: black;
+    padding-bottom: 50px;
+    margin-top: 6rem;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.tec {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 50vh;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 3px;
+    color: #FFF500;
+    font-family: sans-serif;
+    font-weight: 700;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.tec img {
+    width: 30%;
+}
+
+.tec a {
+    text-decoration: none;
+    color: #FFF500;
+    margin-top: 15px;
+    margin-right: 50px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.tec a:hover {
+    text-decoration: none;
+    color: #798897;
+    margin-top: 15px;
+    font-weight: 1000;
+}
+
+.tecnologia1 {
+    background-color: #4A4737;  
+}
+
+.tecnologia2 {
+    background-color: #FFF500;
+}
+
+.tecnologia3 {
+    background-color: #4A4737;
+}
+
+.tec.tecnologia2 p {
+    font-weight: 300;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tecnologia2 h1 {
+    color: #222222;
+}
+
+.tec.tecnologia2 a {
+    text-decoration: none;
+    color: #222222;
+    margin-top: 15px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.tec.tecnologia2 a:hover {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    font-weight: 1000;
+}
+
+.titulo-sobre {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #FFF500;
+}
+
+.titulo-formacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #FFF500;
+}
+
+.formacao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.formacao h1 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.formacao h2 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.formacao details {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.formacao-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+    background-color: #FFF500;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 5%;
+    min-height: 150px;
+}
+
+.logo-formacao {
+    width: 150px;
+    height: 50px;
+    margin-left: 400px;
+}
+
+/*FIM SECTION 2*/
+
+/*INICIO SECTION 3 = PROJETOS*/
+
+.terceira-sec {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 70px;
+    gap: 50px;
+    position: relative;
+    top: 150px;
+}
+
+.titulo-projetos {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF500;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.projetos-exemplo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.exemplos-interno {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #FFF500;
+    color: #222222;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.projetos-btn {
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #222222;
+    border: 2px solid #222222;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: sans-serif;
+    width: 55%;
+    text-transform: uppercase;
+}
+
+.projetos-btn::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #798897;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.projetos-btn:hover::before {
+    transform: translateX(0);
+}
+
+/*FIM SECTION 3 = PROJETOS*/
+
+/*INICIO SECTION CONTATO*/
+
+.bg {
+    background-color: #222222;
+    height: 40vh;
+}
+
+.contatos-trabalho {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #FFF500;
+    position: relative;
+    bottom: 70px;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    gap: 30px;
+}
+
+.cnt-trabalbo {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: sans-serif;
+    gap: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.contatos-trabalho a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.cnt-trabalbo p {
+    font-weight: 400;
+}
+
+/*FIM SECTION CONTATO*/
+
+/*INICIO FOOTER*/
+
+footer {
+    height: 50px;
+    background-color: #FFF500;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.icone-footer {
+    width: 10px;
+}
+
+.criador {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu-footer{
+    display: flex;
+    width: 30px;
+    cursor: pointer;
+}
+
+.imgfooter {
+    width: 40px;
+}
+
+/*FIM FOOTER*/
