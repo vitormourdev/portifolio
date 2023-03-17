@@ -81,7 +81,7 @@ nav a:hover::after {
     height: 350px;
     border-radius: 50%;
     margin-bottom: 0;
-    box-shadow: 0px 0px 144px -8px rgba(235, 231, 44, 0.27);
+    box-shadow: 1px 1px 50px #FFF500;
 }
 
 .info-prof-config {
@@ -471,6 +471,23 @@ nav a:hover::after {
 }
 
 /*FIM SECTION CONTATO*/
+
+/*BOTAO DE VOLTAR AO TOPO*/
+
+.topo {
+    text-decoration: none;
+    position: fixed;
+    color: black;
+    background-color: #FFF500;
+    padding: 10px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px #FFF500;
+}
+
+/*BOTAO DE VOLTAR AO TOPO*/
 
 /*INICIO FOOTER*/
 
