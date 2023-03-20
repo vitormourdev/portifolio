@@ -16,7 +16,7 @@ body {
 /*INICIO NAVBAR*/
 
 .navegacao {
-    background: black;
+    background: darkred;
 }
 
 .navegacao ul {
@@ -40,7 +40,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
-    color: #FFF500;
+    color: white;
     white-space: nowrap;
     position: relative;
 }
@@ -49,7 +49,7 @@ nav a::after {
     content: " ";
     width: 0%;
     height: 2px;
-    background-color: #798897;
+    background-color: white;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -60,7 +60,7 @@ nav a:hover::after {
     width: 100%;
 }
 
-/*INICIO NAVBAR*/
+/*FIM NAVBAR*/
 
 /*INICIO SECTION PRINCIPAL*/
 
@@ -81,7 +81,6 @@ nav a:hover::after {
     height: 350px;
     border-radius: 50%;
     margin-bottom: 0;
-    box-shadow: 1px 1px 50px #FFF500;
 }
 
 .info-prof-config {
@@ -97,7 +96,7 @@ nav a:hover::after {
 .nome-profissional {
     font-weight: 1000;
     font-size: 20px;
-    color: #FFF500;
+    color: white;
 }
 
 .titulo {
@@ -116,7 +115,7 @@ nav a:hover::after {
     transition: 0.5s;
     position: relative;
     font-size: 17px;
-    background: #FFF500;
+    background: darkred;
     border: none;
     color: white;
     margin-top: 10px;
@@ -124,9 +123,9 @@ nav a:hover::after {
 
 .about-me:hover {
     letter-spacing: 0.25em;
-    background: #798897;
-    color: #FFF500;
-    box-shadow: 0 0 45px #FFF500;
+    background: white;
+    color: darkred;
+    box-shadow: 0 0 45px darkred;
     cursor: pointer;
 }
 
@@ -151,7 +150,7 @@ nav a:hover::after {
 .about-me i::before {
     content: ' ';
     position: absolute;
-    border: 2px solid #FFF500;
+    border: 2px solid darkred;
     width: 7px;
     height: 4px;
     top: -3.5px;
@@ -169,7 +168,7 @@ nav a:hover::after {
 .about-me i::after {
     content: ' ';
     position: absolute;
-    border: 2px solid #FFF500;
+    border: 2px solid darkred;
     width: 7px;
     height: 4px;
     bottom: -3.5px;
@@ -216,7 +215,7 @@ nav a:hover::after {
     justify-content: center;
     padding-left: 15%;
     padding-right: 3px;
-    color: #FFF500;
+    color: darkred;
     font-family: sans-serif;
     font-weight: 700;
     gap: 20px;
@@ -229,7 +228,7 @@ nav a:hover::after {
 
 .tec a {
     text-decoration: none;
-    color: #FFF500;
+    color: darkred;
     margin-top: 15px;
     margin-right: 50px;
     font-weight: 1000;
@@ -238,37 +237,37 @@ nav a:hover::after {
 
 .tec a:hover {
     text-decoration: none;
-    color: #798897;
+    color: white;
     margin-top: 15px;
     font-weight: 1000;
 }
 
 .tecnologia1 {
-    background-color: #4A4737;  
+    background-color: darkgray;  
 }
 
 .tecnologia2 {
-    background-color: #FFF500;
+    background-color: darkred;
 }
 
 .tecnologia3 {
-    background-color: #4A4737;
+    background-color: darkgray;
 }
 
 .tec.tecnologia2 p {
     font-weight: 300;
-    color: #222222;
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .tecnologia2 h1 {
-    color: #222222;
+    color: white;
 }
 
 .tec.tecnologia2 a {
     text-decoration: none;
-    color: #222222;
+    color: white;
     margin-top: 15px;
     font-weight: 1000;
     text-transform: uppercase;
@@ -276,7 +275,7 @@ nav a:hover::after {
 
 .tec.tecnologia2 a:hover {
     text-decoration: none;
-    color: white;
+    color: darkgray;
     margin-top: 15px;
     font-weight: 1000;
 }
@@ -286,7 +285,7 @@ nav a:hover::after {
     justify-content: center;
     margin-top: 50px;
     font-family: sans-serif;
-    color: #FFF500;
+    color: white;
 }
 
 .titulo-formacao {
@@ -294,7 +293,7 @@ nav a:hover::after {
     justify-content: center;
     margin-top: 50px;
     font-family: sans-serif;
-    color: #FFF500;
+    color: white;
 }
 
 .formacao {
@@ -304,7 +303,7 @@ nav a:hover::after {
 }
 
 .formacao h1 {
-    color: black;
+    color: white;
     font-family: sans-serif;
     font-size: 20px;
     text-align: center;
@@ -313,7 +312,7 @@ nav a:hover::after {
 }
 
 .formacao h2 {
-    color: black;
+    color: white;
     font-family: sans-serif;
     font-size: 15px;
     text-align: center;
@@ -322,7 +321,7 @@ nav a:hover::after {
 }
 
 .formacao details {
-    color: black;
+    color: white;
     font-family: sans-serif;
     font-size: 13px;
     text-align: center;
@@ -336,7 +335,7 @@ nav a:hover::after {
     justify-content: center;
     gap: 10px;
     width: 60%;
-    background-color: #FFF500;
+    background-color: darkred;
     padding-left: 5%;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -368,7 +367,7 @@ nav a:hover::after {
 .titulo-projetos {
     display: flex;
     justify-content: space-between;
-    color: #FFF500;
+    color: white;
     font-family: sans-serif;
     font-weight: 800;
     text-transform: uppercase;
@@ -385,8 +384,8 @@ nav a:hover::after {
     flex-direction: column;
     gap: 10px;
     padding: 20px;
-    background-color: #FFF500;
-    color: #222222;
+    background-color: darkred;
+    color: white;
     font-family: sans-serif;
     text-transform: uppercase;
     font-weight: 1000;
@@ -396,10 +395,9 @@ nav a:hover::after {
 .projetos-btn {
     display: inline-block;
     padding: 5px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 800;
-    color: #222222;
-    border: 2px solid #222222;
+    color: white;
     cursor: pointer;
     position: relative;
     background-color: transparent;
@@ -409,6 +407,7 @@ nav a:hover::after {
     font-family: sans-serif;
     width: 55%;
     text-transform: uppercase;
+    border-radius: 5%;
 }
 
 .projetos-btn::before {
@@ -418,7 +417,7 @@ nav a:hover::after {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #798897;
+    background-color: black;
     transform: translateX(-100%);
     transition: all .3s;
     z-index: -1;
@@ -441,7 +440,7 @@ nav a:hover::after {
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: #FFF500;
+    background-color: darkred;
     position: relative;
     bottom: 70px;
     justify-content: center;
@@ -453,7 +452,7 @@ nav a:hover::after {
 .cnt-trabalbo {
     display: flex;
     flex-direction: column;
-    color: black;
+    color: white;
     font-family: sans-serif;
     gap: 10px;
     text-transform: uppercase;
@@ -462,7 +461,7 @@ nav a:hover::after {
 
 .contatos-trabalho a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: sans-serif;
 }
 
@@ -478,13 +477,13 @@ nav a:hover::after {
     text-decoration: none;
     position: fixed;
     color: black;
-    background-color: #FFF500;
+    background-color: darkred;
     padding: 10px;
     right: 20px;
     bottom: 20px;
     text-align: center;
     border-radius: 50%;
-    box-shadow: 1px 1px 20px #FFF500;
+    box-shadow: 1px 1px 20px darkred;
 }
 
 /*BOTAO DE VOLTAR AO TOPO*/
@@ -493,7 +492,7 @@ nav a:hover::after {
 
 footer {
     height: 50px;
-    background-color: #FFF500;
+    background-color: darkred;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -506,7 +505,7 @@ footer {
 }
 
 .criador {
-    color: black;
+    color: white;
     font-family: sans-serif;
     font-weight: 400;
     font-size: 16px;
